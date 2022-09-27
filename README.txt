@@ -5,9 +5,12 @@ Hi,
   
  There are two folders in the repository the web folder contains the website on other hand app has the admin application.
   App :
-      Dowload the app files, then you need to instal some python packages, to do so run the below command in your tterminal.
+      Dowload the app files, then you need to instal some python packages, to do so run the below command in your terminal.
           pip install pyqrcode pypng opencv-python pandas pygame
       All set you are ready to go in the working directory run the below command.
           python teens_of_god.py
           
   Web : 
+      After downloading the web folder open the index.html file in your browser and here is the website.
+      
+Thanks(Code on wings)          
