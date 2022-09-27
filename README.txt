@@ -10,6 +10,11 @@ Hi,
       All set you are ready to go in the working directory run the below command.
           python teens_of_god.py
           
+      admin login:
+        username : harsh
+        password : yadav
+            
+          
   Web : 
       After downloading the web folder open the index.html file in your browser and here is the website.
       
