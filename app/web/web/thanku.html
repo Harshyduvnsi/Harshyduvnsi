@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thankyou for registering</title>
+</head>
+<body background="/static/images/bg_6.jpg">
+    <br><br><br><br><br>
+    <div align="center" style="color: white;">
+        <strong><h2>Thank you for being a member with us</h2></strong><br><br>
+        You ID card is downlaoded and You are redirected to home in <span id="timer">5</span> Seconds.
+    </div><br>
+    <div align="center" style="color: white;">
+        <a href="data:image/png;base64,{{ image }}"download style="display:none"><img src="data:image/png;base64,{{ image }}"></a>
+    </div>
+    <script>
+    const link = document.querySelector('a');
+    link.click();
+    function countdown() {
+            var i = document.getElementById('timer');
+            if (parseInt(i.innerHTML)<=0) {
+                location.href = '/';
+            }
+            if (parseInt(i.innerHTML)!=0) {
+                i.innerHTML = parseInt(i.innerHTML)-1;
+            }
+        }
+    setInterval(function(){ countdown(); },1000);
+    </script>
+</body>
+</html>
