@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teens of God</title>
+</head>
+<body background="/static/images/bg_6.jpg">
+    <br><br><br><br><br>
+    <div align="center">
+        <img src="/static/images/upi.jpeg" alt="" width="200" height="300">
+        <br><br>
+        <form action="#" method="POST">
+        {% csrf_token %}
+        <input type="text" name="name" required placeholder="Name" style="background-color:rgb(59, 57, 56); height: 40px; width: 200px; color: white;">
+        <br><br>
+        <input type="number" name="contact" required placeholder="Contact number" style="background-color:rgb(59, 57, 56); height: 40px; width: 200px; color: white;">
+        <br><br>
+        <input type="submit" placeholder="Submit" style="height: 40px; width: 100px; color: blueviolet; background-color: black;">
+        </form>
+    </div>
+    
+
+    
+</body>
+</html>
