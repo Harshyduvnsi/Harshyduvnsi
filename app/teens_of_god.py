@@ -559,7 +559,7 @@ while(stta):
         elif event.type==pg.MOUSEBUTTONDOWN:
             if event.button==1:
                 if(gor.collidepoint(event.pos)):
-                    dashboard()
+                    login()
         display.fill((20,0,60))
         display.blit(go,gor)
         pg.display.flip()   
