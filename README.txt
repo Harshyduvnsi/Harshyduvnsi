@@ -1,5 +1,5 @@
 Hi,
-  We are glad taht you reached our project. We have created an website to add volunteers/donators from all over india also to make donation avialable online
+  We are glad that you reached our project. We have created an website to add volunteers/donators from all over india also to make donation avialable online
   anyone can register online the data will be stored and an id card will be provided for attendance purpose
   Secondly we have created an python application for admin controls to create qrcodes for volunteers and track there attendence. The volunters only need to show there 
   ID cards printed with a qr code and there attendence will be marked.
